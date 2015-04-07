@@ -40,7 +40,8 @@ if(isset($_POST['getsquares']))
 				while($stop <= $start)
 			{
 				echo $stop * $stop .' is the square of '.$stop.'<br/>';				
-				$stop ++;				
+				$stop ++;
+				//end of loop				
 			}
 		}
 	}
